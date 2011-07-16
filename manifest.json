@@ -4,9 +4,9 @@
   "description": "今日のミサワ画像を表示する",
   "browser_action": {
     "default_icon": "icon.png",
-	"popup": "popup.html"
+	"popup": "misawa.html"
   },
   "permissions": [
-  	"http://jigokuno.img.jugem.jp/"
+  	"http://jigokuno.com/"
   ]
 }
