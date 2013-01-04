@@ -1,10 +1,11 @@
 {
+  "manifest_version": 2,
   "name": "Todays Misawa",
-  "version": "1.0",
+  "version": "1.1",
   "description": "今日のミサワ画像を表示する",
   "browser_action": {
     "default_icon": "icon.png",
-	"popup": "misawa.html"
+    "default_popup": "misawa.html"
   },
   "permissions": [
   	"http://jigokuno.com/"

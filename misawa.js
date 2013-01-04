@@ -10,7 +10,7 @@ req.onreadystatechange = function() {
 		var html = req.responseText;
 		//最新のentry_areaを取得
 		var text1 = html.substring(html.indexOf('<div class="entry_area">'));
-		var text2 = text1.substring(0,text1.indexOf('</div>'));
+		var text2 = text1.substring(0,text1.indexOf('</div></div>'));
 
 		//タイトル取り出し
 		var titleStart = text2.substring(text1.indexOf('<h2>') + h2Size);
