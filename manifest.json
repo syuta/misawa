@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Todays Misawa",
-  "version": "1.1",
+  "version": "1.2",
   "description": "今日のミサワ画像を表示する",
   "browser_action": {
     "default_icon": "icon.png",
